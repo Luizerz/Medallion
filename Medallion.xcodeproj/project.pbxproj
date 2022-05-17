@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F7601C2282BD46A0035CC17 /* MedallionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601C1282BD46A0035CC17 /* MedallionApp.swift */; };
+		4F7601C4282BD46A0035CC17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601C3282BD46A0035CC17 /* ContentView.swift */; };
+		4F7601C6282BD46C0035CC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7601C5282BD46C0035CC17 /* Assets.xcassets */; };
+		4F7601C9282BD46C0035CC17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7601C8282BD46C0035CC17 /* Preview Assets.xcassets */; };
+		4F7601D3282BD46C0035CC17 /* MedallionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601D2282BD46C0035CC17 /* MedallionTests.swift */; };
+		4F7601DD282BD46C0035CC17 /* MedallionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601DC282BD46C0035CC17 /* MedallionUITests.swift */; };
+		4F7601DF282BD46C0035CC17 /* MedallionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601DE282BD46C0035CC17 /* MedallionUITestsLaunchTests.swift */; };
+		4F7601EC282C3D600035CC17 /* Hapatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601EB282C3D600035CC17 /* Hapatic.swift */; };
+		4F7601EE282C49820035CC17 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601ED282C49820035CC17 /* Home.swift */; };
+		4FAE1D6A282E9B720004AFA0 /* Mapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE1D69282E9B720004AFA0 /* Mapa.swift */; };
+		4FAE1D6D28328EF50004AFA0 /* BackMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE1D6C28328EF50004AFA0 /* BackMapa.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F7601CF282BD46C0035CC17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F7601B6282BD46A0035CC17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7601BD282BD46A0035CC17;
+			remoteInfo = Medallion;
+		};
+		4F7601D9282BD46C0035CC17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F7601B6282BD46A0035CC17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7601BD282BD46A0035CC17;
+			remoteInfo = Medallion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F7601BE282BD46A0035CC17 /* Medallion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medallion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7601C1282BD46A0035CC17 /* MedallionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedallionApp.swift; sourceTree = "<group>"; };
+		4F7601C3282BD46A0035CC17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F7601C5282BD46C0035CC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F7601C8282BD46C0035CC17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F7601CE282BD46C0035CC17 /* MedallionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedallionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7601D2282BD46C0035CC17 /* MedallionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedallionTests.swift; sourceTree = "<group>"; };
+		4F7601D8282BD46C0035CC17 /* MedallionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedallionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7601DC282BD46C0035CC17 /* MedallionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedallionUITests.swift; sourceTree = "<group>"; };
+		4F7601DE282BD46C0035CC17 /* MedallionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedallionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F7601EB282C3D600035CC17 /* Hapatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hapatic.swift; sourceTree = "<group>"; };
+		4F7601ED282C49820035CC17 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4FAE1D69282E9B720004AFA0 /* Mapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapa.swift; sourceTree = "<group>"; };
+		4FAE1D6C28328EF50004AFA0 /* BackMapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackMapa.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F7601BB282BD46A0035CC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7601CB282BD46C0035CC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7601D5282BD46C0035CC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F7601B5282BD46A0035CC17 = {
+			isa = PBXGroup;
+			children = (
+				4F7601C0282BD46A0035CC17 /* Medallion */,
+				4F7601D1282BD46C0035CC17 /* MedallionTests */,
+				4F7601DB282BD46C0035CC17 /* MedallionUITests */,
+				4F7601BF282BD46A0035CC17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F7601BF282BD46A0035CC17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F7601BE282BD46A0035CC17 /* Medallion.app */,
+				4F7601CE282BD46C0035CC17 /* MedallionTests.xctest */,
+				4F7601D8282BD46C0035CC17 /* MedallionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F7601C0282BD46A0035CC17 /* Medallion */ = {
+			isa = PBXGroup;
+			children = (
+				4F7601C1282BD46A0035CC17 /* MedallionApp.swift */,
+				4F7601C3282BD46A0035CC17 /* ContentView.swift */,
+				4FAE1D6B28327FCB0004AFA0 /* MapAsset */,
+				4F7601ED282C49820035CC17 /* Home.swift */,
+				4F7601EB282C3D600035CC17 /* Hapatic.swift */,
+				4F7601C5282BD46C0035CC17 /* Assets.xcassets */,
+				4F7601C7282BD46C0035CC17 /* Preview Content */,
+			);
+			path = Medallion;
+			sourceTree = "<group>";
+		};
+		4F7601C7282BD46C0035CC17 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F7601C8282BD46C0035CC17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F7601D1282BD46C0035CC17 /* MedallionTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F7601D2282BD46C0035CC17 /* MedallionTests.swift */,
+			);
+			path = MedallionTests;
+			sourceTree = "<group>";
+		};
+		4F7601DB282BD46C0035CC17 /* MedallionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F7601DC282BD46C0035CC17 /* MedallionUITests.swift */,
+				4F7601DE282BD46C0035CC17 /* MedallionUITestsLaunchTests.swift */,
+			);
+			path = MedallionUITests;
+			sourceTree = "<group>";
+		};
+		4FAE1D6B28327FCB0004AFA0 /* MapAsset */ = {
+			isa = PBXGroup;
+			children = (
+				4FAE1D69282E9B720004AFA0 /* Mapa.swift */,
+				4FAE1D6C28328EF50004AFA0 /* BackMapa.swift */,
+			);
+			path = MapAsset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F7601BD282BD46A0035CC17 /* Medallion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7601E2282BD46C0035CC17 /* Build configuration list for PBXNativeTarget "Medallion" */;
+			buildPhases = (
+				4F7601BA282BD46A0035CC17 /* Sources */,
+				4F7601BB282BD46A0035CC17 /* Frameworks */,
+				4F7601BC282BD46A0035CC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medallion;
+			productName = Medallion;
+			productReference = 4F7601BE282BD46A0035CC17 /* Medallion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F7601CD282BD46C0035CC17 /* MedallionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7601E5282BD46C0035CC17 /* Build configuration list for PBXNativeTarget "MedallionTests" */;
+			buildPhases = (
+				4F7601CA282BD46C0035CC17 /* Sources */,
+				4F7601CB282BD46C0035CC17 /* Frameworks */,
+				4F7601CC282BD46C0035CC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7601D0282BD46C0035CC17 /* PBXTargetDependency */,
+			);
+			name = MedallionTests;
+			productName = MedallionTests;
+			productReference = 4F7601CE282BD46C0035CC17 /* MedallionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F7601D7282BD46C0035CC17 /* MedallionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7601E8282BD46C0035CC17 /* Build configuration list for PBXNativeTarget "MedallionUITests" */;
+			buildPhases = (
+				4F7601D4282BD46C0035CC17 /* Sources */,
+				4F7601D5282BD46C0035CC17 /* Frameworks */,
+				4F7601D6282BD46C0035CC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F7601DA282BD46C0035CC17 /* PBXTargetDependency */,
+			);
+			name = MedallionUITests;
+			productName = MedallionUITests;
+			productReference = 4F7601D8282BD46C0035CC17 /* MedallionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F7601B6282BD46A0035CC17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4F7601BD282BD46A0035CC17 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					4F7601CD282BD46C0035CC17 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4F7601BD282BD46A0035CC17;
+					};
+					4F7601D7282BD46C0035CC17 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4F7601BD282BD46A0035CC17;
+					};
+				};
+			};
+			buildConfigurationList = 4F7601B9282BD46A0035CC17 /* Build configuration list for PBXProject "Medallion" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F7601B5282BD46A0035CC17;
+			productRefGroup = 4F7601BF282BD46A0035CC17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F7601BD282BD46A0035CC17 /* Medallion */,
+				4F7601CD282BD46C0035CC17 /* MedallionTests */,
+				4F7601D7282BD46C0035CC17 /* MedallionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F7601BC282BD46A0035CC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7601C9282BD46C0035CC17 /* Preview Assets.xcassets in Resources */,
+				4F7601C6282BD46C0035CC17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7601CC282BD46C0035CC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7601D6282BD46C0035CC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7601BA282BD46A0035CC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7601C4282BD46A0035CC17 /* ContentView.swift in Sources */,
+				4F7601C2282BD46A0035CC17 /* MedallionApp.swift in Sources */,
+				4F7601EE282C49820035CC17 /* Home.swift in Sources */,
+				4FAE1D6D28328EF50004AFA0 /* BackMapa.swift in Sources */,
+				4F7601EC282C3D600035CC17 /* Hapatic.swift in Sources */,
+				4FAE1D6A282E9B720004AFA0 /* Mapa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7601CA282BD46C0035CC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7601D3282BD46C0035CC17 /* MedallionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7601D4282BD46C0035CC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7601DF282BD46C0035CC17 /* MedallionUITestsLaunchTests.swift in Sources */,
+				4F7601DD282BD46C0035CC17 /* MedallionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F7601D0282BD46C0035CC17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F7601BD282BD46A0035CC17 /* Medallion */;
+			targetProxy = 4F7601CF282BD46C0035CC17 /* PBXContainerItemProxy */;
+		};
+		4F7601DA282BD46C0035CC17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F7601BD282BD46A0035CC17 /* Medallion */;
+			targetProxy = 4F7601D9282BD46C0035CC17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F7601E0282BD46C0035CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F7601E1282BD46C0035CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F7601E3282BD46C0035CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medallion/Preview Content\"";
+				DEVELOPMENT_TEAM = PPSYB39C6H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "pq sim";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progamming.Medallion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F7601E4282BD46C0035CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medallion/Preview Content\"";
+				DEVELOPMENT_TEAM = PPSYB39C6H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "pq sim";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progamming.Medallion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F7601E6282BD46C0035CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progamming.MedallionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medallion.app/Medallion";
+			};
+			name = Debug;
+		};
+		4F7601E7282BD46C0035CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progamming.MedallionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medallion.app/Medallion";
+			};
+			name = Release;
+		};
+		4F7601E9282BD46C0035CC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progamming.MedallionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medallion;
+			};
+			name = Debug;
+		};
+		4F7601EA282BD46C0035CC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = progamming.MedallionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medallion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F7601B9282BD46A0035CC17 /* Build configuration list for PBXProject "Medallion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7601E0282BD46C0035CC17 /* Debug */,
+				4F7601E1282BD46C0035CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7601E2282BD46C0035CC17 /* Build configuration list for PBXNativeTarget "Medallion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7601E3282BD46C0035CC17 /* Debug */,
+				4F7601E4282BD46C0035CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7601E5282BD46C0035CC17 /* Build configuration list for PBXNativeTarget "MedallionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7601E6282BD46C0035CC17 /* Debug */,
+				4F7601E7282BD46C0035CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7601E8282BD46C0035CC17 /* Build configuration list for PBXNativeTarget "MedallionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7601E9282BD46C0035CC17 /* Debug */,
+				4F7601EA282BD46C0035CC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F7601B6282BD46A0035CC17 /* Project object */;
+}
