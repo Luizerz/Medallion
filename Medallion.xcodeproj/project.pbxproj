@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F4135C82833D9CB0022371A /* Geofencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4135C72833D9CB0022371A /* Geofencing.swift */; };
 		4F7601C2282BD46A0035CC17 /* MedallionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601C1282BD46A0035CC17 /* MedallionApp.swift */; };
 		4F7601C4282BD46A0035CC17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601C3282BD46A0035CC17 /* ContentView.swift */; };
 		4F7601C6282BD46C0035CC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7601C5282BD46C0035CC17 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		4F7601EE282C49820035CC17 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7601ED282C49820035CC17 /* Home.swift */; };
 		4FAE1D6A282E9B720004AFA0 /* Mapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE1D69282E9B720004AFA0 /* Mapa.swift */; };
 		4FAE1D6D28328EF50004AFA0 /* BackMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAE1D6C28328EF50004AFA0 /* BackMapa.swift */; };
+		4FD9D03928352229004E6ABB /* MenuSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9D03828352229004E6ABB /* MenuSnippet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F4135C72833D9CB0022371A /* Geofencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geofencing.swift; sourceTree = "<group>"; };
+		4F52FCFD2837B7DA00B1E9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4F7601BE282BD46A0035CC17 /* Medallion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medallion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7601C1282BD46A0035CC17 /* MedallionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedallionApp.swift; sourceTree = "<group>"; };
 		4F7601C3282BD46A0035CC17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 		4F7601ED282C49820035CC17 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		4FAE1D69282E9B720004AFA0 /* Mapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapa.swift; sourceTree = "<group>"; };
 		4FAE1D6C28328EF50004AFA0 /* BackMapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackMapa.swift; sourceTree = "<group>"; };
+		4FD9D03828352229004E6ABB /* MenuSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSnippet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +107,12 @@
 		4F7601C0282BD46A0035CC17 /* Medallion */ = {
 			isa = PBXGroup;
 			children = (
+				4F52FCFD2837B7DA00B1E9DE /* Info.plist */,
 				4F7601C1282BD46A0035CC17 /* MedallionApp.swift */,
+				4F7601ED282C49820035CC17 /* Home.swift */,
 				4F7601C3282BD46A0035CC17 /* ContentView.swift */,
 				4FAE1D6B28327FCB0004AFA0 /* MapAsset */,
-				4F7601ED282C49820035CC17 /* Home.swift */,
+				4FD9D03A283524BF004E6ABB /* Components */,
 				4F7601EB282C3D600035CC17 /* Hapatic.swift */,
 				4F7601C5282BD46C0035CC17 /* Assets.xcassets */,
 				4F7601C7282BD46C0035CC17 /* Preview Content */,
@@ -142,9 +149,18 @@
 			isa = PBXGroup;
 			children = (
 				4FAE1D69282E9B720004AFA0 /* Mapa.swift */,
+				4F4135C72833D9CB0022371A /* Geofencing.swift */,
 				4FAE1D6C28328EF50004AFA0 /* BackMapa.swift */,
 			);
 			path = MapAsset;
+			sourceTree = "<group>";
+		};
+		4FD9D03A283524BF004E6ABB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4FD9D03828352229004E6ABB /* MenuSnippet.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +295,9 @@
 			files = (
 				4F7601C4282BD46A0035CC17 /* ContentView.swift in Sources */,
 				4F7601C2282BD46A0035CC17 /* MedallionApp.swift in Sources */,
+				4F4135C82833D9CB0022371A /* Geofencing.swift in Sources */,
 				4F7601EE282C49820035CC17 /* Home.swift in Sources */,
+				4FD9D03928352229004E6ABB /* MenuSnippet.swift in Sources */,
 				4FAE1D6D28328EF50004AFA0 /* BackMapa.swift in Sources */,
 				4F7601EC282C3D600035CC17 /* Hapatic.swift in Sources */,
 				4FAE1D6A282E9B720004AFA0 /* Mapa.swift in Sources */,
@@ -444,10 +462,10 @@
 				DEVELOPMENT_TEAM = PPSYB39C6H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Medallion/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "pq sim";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -475,10 +493,10 @@
 				DEVELOPMENT_TEAM = PPSYB39C6H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Medallion/Info.plist;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "pq sim";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;

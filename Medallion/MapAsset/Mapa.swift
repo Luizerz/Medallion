@@ -15,10 +15,28 @@ struct Mapa: View {
     @State var medallion = Hapatic()
     @StateObject var coordinate = LocationManager()
     
+    let active: Bool = true
+    
     var body: some View {
-        Text("\(coordinate.userLocation.doubleValue()[0])  \(coordinate.userLocation.doubleValue()[1])")
-        Button(action: {pasteboard.string = coordinate.userLocation.values()}, label: {Text("Copy Current Coordinates")}).buttonStyle(.bordered)
-        Text("\(testeLocal.distance(from: CLLocation(latitude: coordinate.userLocation.latitude, longitude: coordinate.userLocation.longitude)))")
+        let distancia = testeLocal.distance(from: CLLocation(latitude: coordinate.userLocation.latitude, longitude: coordinate.userLocation.longitude)).round(to: 10)
+//        Text("\(coordinate.userLocation.doubleValue()[0])  \(coordinate.userLocation.doubleValue()[1])")
+//        Button(action: {pasteboard.string = coordinate.userLocation.values()}, label: {Text("Copy Current Coordinates")}).buttonStyle(.bordered)
+        VStack {
+            if distancia <= 3{
+                Image("medalhaoVibrate")
+            }
+            else if distancia <= 6 {
+                Image("medalhaoMedio")
+            }else{
+                Image("medalhaoClean")
+            }
+            Text("Distancia do ponto: ")
+            Text("\(distancia) M")
+        }
+        .onAppear {
+            coordinate.vibrarHabilitado = true
+        }
+            
     }
 }
 
@@ -27,6 +45,7 @@ struct Mapa_Previews: PreviewProvider {
         Mapa()
     }
 }
+
 
 //Text("\(coordinate.manager.location?.coordinate.values() ?? CLLocationCoordinate2D(latitude: 2, longitude: 2).values())")
 

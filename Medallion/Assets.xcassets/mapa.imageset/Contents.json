@@ -1,7 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "wolf.svg",
+      "filename" : "Mapa-1.svg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Mapa.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },

@@ -23,8 +23,9 @@ struct Location: Identifiable{
     let coordinate: CLLocationCoordinate2D
 }
 
-class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject{
+class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
     var medallion = Hapatic()
+    let testeLocal: CLLocation = CLLocation(latitude: -3.744573 , longitude: -38.536648 )
     
     @Published var region = MKCoordinateRegion()
     var userLocation: CLLocationCoordinate2D {
@@ -35,10 +36,12 @@ class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject{
     }
     public let manager = CLLocationManager()
     
+    var vibrarHabilitado = false
+    
     override init() {
         super.init()
         manager.delegate = self
-        manager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+        manager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
         manager.requestWhenInUseAuthorization()
         manager.startUpdatingLocation()
     }
@@ -49,14 +52,18 @@ class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject{
                 center: CLLocationCoordinate2D(latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude),
                 span: MKCoordinateSpan(latitudeDelta: 0.5, longitudeDelta: 0.5)
             )
+            if vibrarHabilitado {
+                if locations.last!.distance(from: testeLocal).rounded() <= 3 {
+                    medallion.vibrar()
+                }
+            }
         }
-        let testeLocal: CLLocation = CLLocation(latitude: -3.744573 , longitude: -38.536648 )
-        print(locations.last!.distance(from: testeLocal).rounded())
-        if locations.last!.distance(from: testeLocal).rounded() <= 3 {
-            medallion.vibrar()
-        }
+        
     }
 }
+
+
+
 
 extension CLLocationCoordinate2D {
     func values() -> String {
@@ -68,3 +75,11 @@ extension CLLocationCoordinate2D {
         return double
     }
 }
+
+
+
+//print(locations.last!.distance(from: testeLocal).rounded())
+
+
+
+

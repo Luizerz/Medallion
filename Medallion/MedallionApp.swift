@@ -12,9 +12,9 @@ struct MedallionApp: App {
     var body: some Scene {
         WindowGroup {
             VStack{
-                ContentView()
-                Mapa()
-                
+                Home()
+                //                ContentView()
+                //                Mapa()
             }
         }
     }
